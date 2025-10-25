@@ -7,6 +7,16 @@ public class validParenthesis {
         }
         return s.isEmpty();
     }
+
+    static boolean usingSatck(String s){
+
+        for (char ch:s.toCharArray()) {
+            if (ch=='[' || ch=='{' || ch=='('){
+
+            }
+        }
+        return false;
+    }
     public static void main(String[] args) {
         String s="{}[]{]";
     }
