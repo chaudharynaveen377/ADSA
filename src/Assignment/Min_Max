@@ -1,1 +1,25 @@
+package Assignment;
+
+public class MIN_MAX {
+
+    static int min(int arr[]){
+        int min=Integer.MAX_VALUE;
+        for(int val:arr){
+            min=Math.min(min,val);
+        }
+        return min;
+    }
+    static int max(int arr[]){
+   int max=Integer.MIN_VALUE;
+   for(int val:arr){
+       max=Math.max(max,val);
+   }
+   return max;
+    }
+    public static void main(String[] args) {
+        int arr[]={1,4,3,6,5,8,0,5};
+        System.out.println(min(arr));
+        System.out.println(max(arr));
+    }
+}
 
